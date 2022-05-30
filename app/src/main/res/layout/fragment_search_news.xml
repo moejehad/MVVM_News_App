@@ -8,10 +8,13 @@
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Search..."
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:imeOptions="actionSearch"
+        android:background="@drawable/input_bg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
